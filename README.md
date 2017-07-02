@@ -1,5 +1,5 @@
 # wikir
-To search and view wikipedia more easily.
+To search and view wikipedia more easily.<br><br>
 ![](screenshot.png)
 ## Site
 [https://ta2gch.github.io/wikir/](https://ta2gch.github.io/wikir/)
