@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>Wikipedia</title>
+    <title>Wikir</title>
     <link type="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <style>
      /* Variables */
@@ -80,8 +80,12 @@
        border-bottom: 1px solid #ddd;
        cursor: pointer;
      }
-     h2, h3 {
+     h1, h2, h3 {
        margin: 10px 0;
+     }
+     a {
+       text-decoration: none;
+       color: #444;
      }
      input[type=radio] {
        margin: 5px 0;
@@ -106,6 +110,7 @@
   <body>
     <div id="app">
       <form id="setting" v-on:change="search" v-if="setting">
+	<h1><a href="https://github.com/ta2gch/wikir">Wikir</a></h1>
 	<h2>Host</h2>
 	<label><input type="radio" v-model="host" value="wikipedia.org">Wikipedia</label><br>
 	<label><input type="radio" v-model="host" value="wiktionary.org">Wiktionary</label><br>
